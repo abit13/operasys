@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<body>
+							  	<form>
+				                    <input type="text" name="fname" id="firstname1" required placeholder="Введите имя">
+	                                 <input type="text" name="sname" id="surname1" required placeholder="Введите фамилию">
+	                                 <input type="email" name="mail" id="email1" required placeholder="Введите электронный адрес">
+	                                 <input  type="text" name="phone" id="phone_1" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
+				                    <input type="button" id="button_form1" class="btn-submit" value="Send" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
+				                </form>
+				                <form>
+				                    <input type="text" name="fname" id="firstname2" required placeholder="Введите имя">
+	                                 <input type="text" name="sname" id="surname2" required placeholder="Введите фамилию">
+	                                 <input type="email" name="mail" id="email2" required placeholder="Введите электронный адрес">
+	                                 <input  type="text" name="phone" id="phone_2" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
+				                    <input type="button" id="button_form2" class="btn-submit" value="Send" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
+				                </form>
+				                <form>
+				                    <input type="text" name="fname" id="firstname3" required placeholder="Введите имя">
+	                                 <input type="text" name="sname" id="surname3" required placeholder="Введите фамилию">
+	                                 <input type="email" name="mail" id="email3" required placeholder="Введите электронный адрес">
+	                                 <input  type="text" name="phone" id="phone_3" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
+				                    <input type="button" id="button_form3" class="btn-submit" value="Send" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
+				                </form>
+				                <form>
+				                    <input type="text" name="fname" id="firstname4" required placeholder="Введите имя">
+	                                 <input type="text" name="sname" id="surname4" required placeholder="Введите фамилию">
+	                                 <input type="email" name="mail" id="email4" required placeholder="Введите электронный адрес">
+	                                 <input  type="text" name="phone" id="phone_4" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
+				                    <input type="button" id="button_form4" class="btn-submit" value="Send" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
+				                </form>
+				                
+	<script type="text/javascript">
+        $(document).ready(function() {
+            $("#button_form1").click(function() {
+                var firstname = $('#firstname1').val();
+                var surname = $('#surname1').val();
+                var email = $('#email1').val();
+                var phone = $('#phone_1').val();
+                $.ajax({
+                    type: "POST",
+                    url: "idcompany.php",
+                    data:{
+                        firstname:firstname,
+                        surname:surname,
+                        email:email,
+                        phone:phone
+                    },
+                    
+                });
+                    	window.location.href = "https://google.com";
+            });
+        });
+        $(document).ready(function() {
+            $("#button_form2").click(function() {
+                var firstname = $('#firstname2').val();
+                var surname = $('#surname2').val();
+                var email = $('#email2').val();
+                var phone = $('#phone_2').val();
+                $.ajax({
+                    type: "POST",
+                    url: "idcompany.php",
+                    data:{
+                        firstname:firstname,
+                        surname:surname,
+                        email:email,
+                        phone:phone
+                    },
+                   
+                });
+                        window.location.href = "https://google.com";
+            });
+        });
+        $(document).ready(function() {
+            $("#button_form3").click(function() {
+                var firstname = $('#firstname3').val();
+                var surname = $('#surname3').val();
+                var email = $('#email3').val();
+                var phone = $('#phone_3').val();
+                $.ajax({
+                    type: "POST",
+                    url: "idcompany.php",
+                    data:{
+                        firstname:firstname,
+                        surname:surname,
+                        email:email,
+                        phone:phone
+                    },
+                    
+                });
+                        window.location.href = "https://google.com";
+            });
+        });
+        $(document).ready(function() {
+            $("#button_form4").click(function() {
+                var firstname = $('#firstname4').val();
+                var surname = $('#surname4').val();
+                var email = $('#email4').val();
+                var phone = $('#phone_4').val();
+                $.ajax({
+                    type: "POST",
+                    url: "idcompany.php",
+                    data:{
+                        firstname:firstname,
+                        surname:surname,
+                        email:email,
+                        phone:phone
+                    },
+                    
+                });
+                        window.location.href = "https://google.com";
+            });
+        });
+    </script>
+</body>
+</html>

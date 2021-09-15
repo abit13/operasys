@@ -1,0 +1,209 @@
+{
+ "version": 1,
+ "files": [
+  {
+   "path": "index.json"
+  },
+  {
+   "path": "index.dat"
+  },
+  {
+   "path": "index.rdf"
+  },
+  {
+   "path": "history.rdf"
+  },
+  {
+   "path": "^metadata^"
+  },
+  {
+   "path": "index.html",
+   "role": "document",
+   "primary": true
+  },
+  {
+   "path": "index.xhtml",
+   "url": "about:blank",
+   "role": "document"
+  },
+  {
+   "path": "index.svg",
+   "url": "about:blank",
+   "role": "document"
+  },
+  {
+   "path": "bootstrap.min.css",
+   "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/bootstrap.min.css",
+   "role": "css-08e058fa-afca-4c57-acb0-99a578d6e61f",
+   "primary": true
+  },
+  {
+   "path": "css.css",
+   "url": "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap",
+   "role": "css",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu4mxk.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfcbc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfcrc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfabc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu72xkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfchc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfbbc4.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfcxc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfolcnqeu92fr1mmwulfbxc4esa.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu5mxkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu7mxkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu4wxkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu7wxkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "kfomcnqeu92fr1mu7gxkozy.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKOzY.woff2",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "algo-video.css",
+   "url": "algo-video.css",
+   "role": "css-65b0ee1f-5f06-4d8a-adf1-ebe6910017f0",
+   "primary": true
+  },
+  {
+   "path": "play-button.png",
+   "url": "play-button.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "app.css",
+   "url": "app.css",
+   "role": "css",
+   "primary": true
+  },
+  {
+   "path": "error-info.svg",
+   "url": "error-info.svg",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "style.css",
+   "url": "style.css",
+   "role": "css-8c694b3b-8419-423c-a941-0fc4c2ea6c51",
+   "primary": true
+  },
+  {
+   "path": "bg-fon.png",
+   "url": "bg-fon.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "background-1.png",
+   "url": "background-1.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "bl-section.png",
+   "url": "bl-section.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "android-icon-192x192.png",
+   "url": "android-icon-192x192.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "favicon-32x32.png",
+   "url": "favicon-32x32.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "favicon-96x96.png",
+   "url": "favicon-96x96.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "favicon-16x16.png",
+   "url": "favicon-16x16.png",
+   "role": "resource",
+   "primary": true
+  },
+  {
+   "path": "fbevents.js",
+   "url": "https://connect.facebook.net/en_US/fbevents.js",
+   "role": "resource",
+   "primary": true
+  }
+ ]
+}
