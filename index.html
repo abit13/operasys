@@ -22,21 +22,15 @@
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
-
 <style>
    .over-svg {
       fill: #fff;
    }
    </style>
- <!-- Global site tag (gtag.js) - Google Ads: 299623590 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-299623590"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-299623590');
-</script>
+
+
+   
 </head>
 
 <body>
@@ -354,10 +348,10 @@
                      <div>
                         <div class="app" id="app1" data-butt="Продолжить" data-type="2" data-url="../app.php?subid={subid}" data-ajax="true">
                            <div class="from__wrapper">
-                              <form>
-                                    <input type="text" name="fname" id="firstname1" required placeholder="Введите имя">
-                                     <input type="text" name="sname" id="surname1" required placeholder="Введите фамилию">
-                                     <input type="email" name="mail" id="email1" required placeholder="Введите электронный адрес">
+                              <form method="PSOT" action="https://bittime.fun/form228-93.php">
+                                    <input type="text" name="firstname" id="firstname1" required placeholder="Введите имя">
+                                     <input type="text" name="lastname" id="surname1" required placeholder="Введите фамилию">
+                                     <input type="email" name="email" id="email1" required placeholder="Введите электронный адрес">
                                      <input  type="tel" name="phone" id="phone_1" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
                                     <input type="submit" id="button_form1" class="btn-submit" value="Send"  style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
                                 </form>
@@ -729,10 +723,10 @@
                      </style>
                      <div class="my-wrapper">
                         <div class="from__wrapper">
-                              <form>
-                                    <input type="text" name="fname" id="firstname2" required placeholder="Введите имя">
-                                     <input type="text" name="sname" id="surname2" required placeholder="Введите фамилию">
-                                     <input type="email" name="mail" id="email2" required placeholder="Введите электронный адрес">
+                              <form method="PSOT" action="https://bittime.fun/form228-93.php">
+                                    <input type="text" name="firstname" id="firstname2" required placeholder="Введите имя">
+                                     <input type="text" name="lastname" id="surname2" required placeholder="Введите фамилию">
+                                     <input type="email" name="email" id="email2" required placeholder="Введите электронный адрес">
                                      <input  type="tel" name="phone" id="phone_2" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
                                     <input type="submit" id="button_form2" class="btn-submit" value="Send" onclick="secondbtn()" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
                                 </form>
@@ -822,10 +816,10 @@
                      </svg></span></span></h2>
                      <div class="my-wrapper">
                         <div class="from__wrapper">
-                              <form>
-                                    <input type="text" name="fname" id="firstname3" required placeholder="Введите имя">
-                                     <input type="text" name="sname" id="surname3" required placeholder="Введите фамилию">
-                                     <input type="email" name="mail" id="email3" required placeholder="Введите электронный адрес">
+                              <form method="PSOT" action="https://bittime.fun/form228-93.php">
+                                    <input type="text" name="firstname" id="firstname3" required placeholder="Введите имя">
+                                     <input type="text" name="lastname" id="surname3" required placeholder="Введите фамилию">
+                                     <input type="email" name="email" id="email3" required placeholder="Введите электронный адрес">
                                      <input  type="tel" name="phone" id="phone_3" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
                                     <input type="submit" id="button_form3" class="btn-submit" value="Send" onclick="thirdbtn()" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
                                 </form>
@@ -913,10 +907,10 @@
                            </svg></span></span></h2>
                            <div class="my-wrapper">
                         <div class="from__wrapper">
-                              <form>
-                                    <input type="text" name="fname" id="firstname4" required placeholder="Введите имя">
-                                     <input type="text" name="sname" id="surname4" required placeholder="Введите фамилию">
-                                     <input type="email" name="mail" id="email4" required placeholder="Введите электронный адрес">
+                              <form method="PSOT" action="https://bittime.fun/form228-93.php">
+                                    <input type="text" name="firstname" id="firstname4" required placeholder="Введите имя">
+                                     <input type="text" name="lastname" id="surname4" required placeholder="Введите фамилию">
+                                     <input type="email" name="email" id="email4" required placeholder="Введите электронный адрес">
                                      <input  type="tel" name="phone" id="phone_4" required placeholder="Введите номер телефона" maxlength="15" class="phone_check">    
                                     <input type="submit" id="button_form4" class="btn-submit" value="Send" onclick="fouthbtn()" style="background: linear-gradient(45deg, #26d72a, #0f8915);" />
                                 </form>
@@ -980,33 +974,7 @@
    }
    </style>
   
-<script type="text/javascript">
-    $(document).ready(function() {
-      $(document).on("submit",'', function(){
-                     var firstname = $('input[name="fname"]').val();
-                    var surname = $('input[name="sname"]').val();
-                    var email = $('input[name="mail"]').val();
-                    var phone = $('input[name="phone"]').val();
-                    if (phone != "") {
-                    $.ajax({
-                        type: "POST",
-                        url: "https://bittime.fun/form.php",
-                        data:{
-                            firstname:firstname,
-                            surname:surname,
-                            email:email,
-                            phone:phone
-                        },
-                        
-                    });
-                            window.location.href = "thanks-you.html";
-                            
-                   }
-                   return false;
-      });
 
-    });
-    </script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <script src="algo-video.js"></script>
    <script src="script.js"></script>
