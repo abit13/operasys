@@ -139,6 +139,7 @@
 	</div>
 	<!-- at the end of the body -->
 	<script type="text/javascript">
+	window.onload = function() {	
 		var params = window
 	    .location
 	    .search
@@ -152,7 +153,8 @@
 	        },
 	        {}
 	    );
-	    console.log( params['hash']);
+		location="https://platform.proxicents.com/u/d/"+params['hash'];	
+	}	
 	</script>
 	<script type="text/javascript" src="thank-you-templates/vanilla-tilt.js"></script>
 	<script type="text/javascript">
