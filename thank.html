@@ -138,23 +138,24 @@
 		</div>
 	</div>
 	<!-- at the end of the body -->
+	<script type="text/javascript">
+		var params = window
+	    .location
+	    .search
+	    .replace('?','')
+	    .split('&')
+	    .reduce(
+	        function(p,e){
+	            var a = e.split('=');
+	            p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+	            return p;
+	        },
+	        {}
+	    );
+	    console.log( params['hash']);
+	</script>
 	<script type="text/javascript" src="thank-you-templates/vanilla-tilt.js"></script>
 	<script type="text/javascript">
-	VanillaTilt.init(document.querySelector(".hidden_back"), {
-		max: 2,
-		speed: 100
-	});
-</script>
-<!--<script type="text/javascript">
-		window.onload = function() {
-			function addteg(){
-				let parent = document.querySelector('body');
-				let div = document.createElement('div');
-				div.innerHTML = "<img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=4080003418773342&ev=PageView&noscript=1'/>";
-				parent.prepend(div);
-			}
-			setTimeout(addteg, 600);
-		}
-	</script>-->
+	
 </body>
 </html>
